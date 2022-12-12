@@ -64,7 +64,9 @@ public class Main {
 
         // usar class Locale para a lingua e o pais
         Locale br = new Locale("pt", "BR");
-        System.out.printf(br, "%,.5f", 123456789.12345); //  [123.456.789,12]
+        System.out.printf(br, "%,.5f%n", 123456789.12345); //  [123.456.789,12]
 
+        System.out.printf("%s", 12);
+        System.out.printf("%d", (short) (byte) (double) (127));
     }
 }
