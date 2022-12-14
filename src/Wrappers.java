@@ -1,6 +1,6 @@
 public class Wrappers {
     public static void main (String[] args) {
-        /* Wrappers sao objetos que representam tipos primitivos. Cada tipo primitivo tem um wrapper correspondente
+        /* Wrappers sao objetos que representam tipos primitivos.
         boolean = Boolean
         byte = Byte
         short = Short
@@ -39,5 +39,31 @@ public class Wrappers {
         double d13 = Double.parseDouble("10.5");
         int i1 = Integer.parseInt("10");
 
+        double d20 = Double.parseDouble("123.6");
+        int i20 = Integer.parseInt("123");
+        int i21 = Integer.parseInt("10", 10); // 10 é a base, pode ser 2, 8, 10, 16
+        int i22 = Integer.parseInt("A", 16); // 10
+        long l2 = Long.parseLong("11", 2);
+
+        System.out.println(i21);
+        System.out.println(l2);
+
+        // wrapper => primitivo : xxxValue()
+
+        // String => primitivo: metodo parseX() é um metodo estatico,
+
+        // String => wrapper
+        // constructor or
+        // valueOf() obejct of.
+
+        // primitivo => String
+        // toString() static method recebe o valor primitivo e retorna uma string
+
+        // wrapper => String
+        // toString()
+
+
     }
+
+
 }
